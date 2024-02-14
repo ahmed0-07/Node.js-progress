@@ -1,6 +1,6 @@
 # Node.js Progress
 
-> just take your time
+> just take your time and focus
 
 ## levels
 
