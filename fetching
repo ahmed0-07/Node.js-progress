@@ -1,0 +1,4 @@
+fetch('https://fakestoreapi.com/products?limit=4')
+.then(res => res.json())
+.then(json => (json[0].price * 3) + (json[2].price * 5) + (json[3].price * 4))
+.then(sum => console.log(sum));
